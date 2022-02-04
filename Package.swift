@@ -15,10 +15,6 @@ let package = Package(
         .target(
             name: "DateToolsSwift",
             path: "DateToolsSwift/DateTools",
-            exclude: [
-                "Examples",
-                "DateToolsSwift/Examples"
-            ],
             resources: [
                 .copy("DateTools.bundle")
             ]
